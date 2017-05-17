@@ -13,6 +13,10 @@
 
 @property (nonatomic, weak)id<FXLANDelegate>delegate;
 
+@property (nonatomic, assign) BOOL host;
+
+@property (nonatomic, assign) FXLANConnectState currentState;
+
 +(instancetype)sharedInstance;
 
 /*
